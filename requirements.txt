@@ -1,0 +1,9 @@
+Django
+djangorestframework
+django-rest-auth
+django-cors-headers
+python-dotenv
+PyMySQL
+pytest
+pytest-django
+channels
