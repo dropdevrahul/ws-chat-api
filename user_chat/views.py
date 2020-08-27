@@ -17,6 +17,7 @@ class ChatRoomView(APIView):
             room , _ = ChatRoom.objects.get_or_create(target=request.user, owner=target_user)
 
         return Response({
-                'id': room.id
+                'id': room.id,
+                "target_username": target_user.username
             })
 

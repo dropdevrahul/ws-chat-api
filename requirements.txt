@@ -3,7 +3,7 @@ djangorestframework
 django-rest-auth
 django-cors-headers
 python-dotenv
-PyMySQL
+mysqlclient
 pytest
 pytest-django
 channels
