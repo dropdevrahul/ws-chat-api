@@ -1,4 +1,4 @@
-# A sample template for starting a new django project along with docker files for the same with some sensible defaults.
+# A django project which uses `django-channels` to support websocket connections.
 
 ## Intro
 A default user is also provided for token based authorization using django-rest-framework present in the
